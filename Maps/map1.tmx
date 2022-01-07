@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="40" height="20" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="358">
+ <tileset firstgid="1" source="../Assets/Floor.tsx"/>
+ <tileset firstgid="2" source="../Assets/Wall.tsx"/>
+ <layer id="1" name="Floor" width="40" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Wall" width="40" height="20">
+  <data encoding="csv">
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,2,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,1,1,1,1,1,2,1,1,1,1,1,2,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,2,2,1,1,1,1,1,2,1,1,1,1,2,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,1,1,2,2,1,1,1,1,1,1,1,2,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,2,2,1,1,1,1,1,1,1,1,1,1,2,1,1,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,1,1,1,1,2,1,1,2,1,1,1,1,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,1,1,1,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,2,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,2,1,2,1,1,2,1,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,2,1,2,1,1,2,1,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+</data>
+ </layer>
+ <objectgroup id="3" name="Obstacles">
+  <object id="57" name="player" x="960" y="192" width="64" height="64"/>
+  <object id="69" name="walls" x="0" y="0" width="64" height="64"/>
+  <object id="70" name="walls" x="64" y="0" width="64" height="64"/>
+  <object id="71" name="walls" x="128" y="0" width="64" height="64"/>
+  <object id="72" name="walls" x="192" y="0" width="64" height="64"/>
+  <object id="73" name="walls" x="256" y="0" width="64" height="64"/>
+  <object id="74" name="walls" x="320" y="0" width="64" height="64"/>
+  <object id="75" name="walls" x="384" y="0" width="64" height="64"/>
+  <object id="76" name="walls" x="448" y="0" width="64" height="64"/>
+  <object id="77" name="walls" x="512" y="0" width="64" height="64"/>
+  <object id="78" name="walls" x="576" y="0" width="64" height="64"/>
+  <object id="79" name="walls" x="640" y="0" width="64" height="64"/>
+  <object id="80" name="walls" x="704" y="0" width="64" height="64"/>
+  <object id="81" name="walls" x="768" y="0" width="64" height="64"/>
+  <object id="82" name="walls" x="832" y="0" width="64" height="64"/>
+  <object id="83" name="walls" x="896" y="0" width="64" height="64"/>
+  <object id="84" name="walls" x="960" y="0" width="64" height="64"/>
+  <object id="85" name="walls" x="1024" y="0" width="64" height="64"/>
+  <object id="86" name="walls" x="1088" y="0" width="64" height="64"/>
+  <object id="87" name="walls" x="1152" y="0" width="64" height="64"/>
+  <object id="88" name="walls" x="1216" y="0" width="64" height="64"/>
+  <object id="89" name="walls" x="1280" y="0" width="64" height="64"/>
+  <object id="90" name="walls" x="1344" y="0" width="64" height="64"/>
+  <object id="91" name="walls" x="1408" y="0" width="64" height="64"/>
+  <object id="92" name="walls" x="1472" y="0" width="64" height="64"/>
+  <object id="93" name="walls" x="1536" y="0" width="64" height="64"/>
+  <object id="94" name="walls" x="1600" y="0" width="64" height="64"/>
+  <object id="95" name="walls" x="1664" y="0" width="64" height="64"/>
+  <object id="96" name="walls" x="1728" y="0" width="64" height="64"/>
+  <object id="97" name="walls" x="1792" y="0" width="64" height="64"/>
+  <object id="98" name="walls" x="1856" y="0" width="64" height="64"/>
+  <object id="99" name="walls" x="1920" y="0" width="64" height="64"/>
+  <object id="100" name="walls" x="1984" y="0" width="64" height="64"/>
+  <object id="101" name="walls" x="2048" y="0" width="64" height="64"/>
+  <object id="102" name="walls" x="2112" y="0" width="64" height="64"/>
+  <object id="103" name="walls" x="2176" y="0" width="64" height="64"/>
+  <object id="104" name="walls" x="2240" y="0" width="64" height="64"/>
+  <object id="105" name="walls" x="2304" y="0" width="64" height="64"/>
+  <object id="106" name="walls" x="2368" y="0" width="64" height="64"/>
+  <object id="107" name="walls" x="2432" y="0" width="64" height="64"/>
+  <object id="108" name="walls" x="2496" y="0" width="64" height="64"/>
+  <object id="111" name="walls" x="0" y="1216" width="64" height="64"/>
+  <object id="112" name="walls" x="64" y="704" width="64" height="64"/>
+  <object id="113" name="walls" x="128" y="704" width="64" height="64"/>
+  <object id="114" name="walls" x="192" y="704" width="64" height="64"/>
+  <object id="115" name="walls" x="256" y="704" width="64" height="64"/>
+  <object id="116" name="walls" x="320" y="704" width="64" height="64"/>
+  <object id="117" name="walls" x="384" y="704" width="64" height="64"/>
+  <object id="118" name="walls" x="448" y="704" width="64" height="64"/>
+  <object id="119" name="walls" x="512" y="704" width="64" height="64"/>
+  <object id="120" name="walls" x="576" y="704" width="64" height="64"/>
+  <object id="121" name="walls" x="640" y="1216" width="64" height="64"/>
+  <object id="122" name="walls" x="704" y="1216" width="64" height="64"/>
+  <object id="123" name="walls" x="768" y="1216" width="64" height="64"/>
+  <object id="124" name="walls" x="832" y="1216" width="64" height="64"/>
+  <object id="125" name="walls" x="896" y="1216" width="64" height="64"/>
+  <object id="126" name="walls" x="960" y="1216" width="64" height="64"/>
+  <object id="127" name="walls" x="1024" y="1216" width="64" height="64"/>
+  <object id="128" name="walls" x="1088" y="1216" width="64" height="64"/>
+  <object id="129" name="walls" x="1152" y="1216" width="64" height="64"/>
+  <object id="130" name="walls" x="1216" y="1216" width="64" height="64"/>
+  <object id="131" name="walls" x="1280" y="1216" width="64" height="64"/>
+  <object id="132" name="walls" x="1344" y="1216" width="64" height="64"/>
+  <object id="133" name="walls" x="1408" y="1216" width="64" height="64"/>
+  <object id="134" name="walls" x="1472" y="1216" width="64" height="64"/>
+  <object id="135" name="walls" x="1536" y="1216" width="64" height="64"/>
+  <object id="136" name="walls" x="1600" y="1216" width="64" height="64"/>
+  <object id="137" name="walls" x="1664" y="1216" width="64" height="64"/>
+  <object id="138" name="walls" x="1728" y="1216" width="64" height="64"/>
+  <object id="139" name="walls" x="1792" y="1216" width="64" height="64"/>
+  <object id="140" name="walls" x="1856" y="1216" width="64" height="64"/>
+  <object id="141" name="walls" x="1920" y="1216" width="64" height="64"/>
+  <object id="142" name="walls" x="1984" y="1216" width="64" height="64"/>
+  <object id="143" name="walls" x="2048" y="1216" width="64" height="64"/>
+  <object id="144" name="walls" x="2112" y="1216" width="64" height="64"/>
+  <object id="145" name="walls" x="2176" y="1216" width="64" height="64"/>
+  <object id="146" name="walls" x="2240" y="1216" width="64" height="64"/>
+  <object id="147" name="walls" x="2304" y="1216" width="64" height="64"/>
+  <object id="148" name="walls" x="2368" y="1216" width="64" height="64"/>
+  <object id="149" name="walls" x="2432" y="1216" width="64" height="64"/>
+  <object id="150" name="walls" x="2496" y="1216" width="64" height="64"/>
+  <object id="151" name="walls" x="2496" y="64" width="64" height="64"/>
+  <object id="152" name="walls" x="2496" y="128" width="64" height="64"/>
+  <object id="153" name="walls" x="2496" y="256" width="64" height="64"/>
+  <object id="154" name="walls" x="2496" y="192" width="64" height="64"/>
+  <object id="155" name="walls" x="2496" y="320" width="64" height="64"/>
+  <object id="156" name="walls" x="2496" y="384" width="64" height="64"/>
+  <object id="157" name="walls" x="2496" y="448" width="64" height="64"/>
+  <object id="158" name="walls" x="2496" y="576" width="64" height="64"/>
+  <object id="159" name="walls" x="2496" y="512" width="64" height="64"/>
+  <object id="160" name="walls" x="2496" y="640" width="64" height="64"/>
+  <object id="161" name="walls" x="2496" y="704" width="64" height="64"/>
+  <object id="162" name="walls" x="2496" y="768" width="64" height="64"/>
+  <object id="163" name="walls" x="2496" y="896" width="64" height="64"/>
+  <object id="164" name="walls" x="2496" y="832" width="64" height="64"/>
+  <object id="165" name="walls" x="2496" y="960" width="64" height="64"/>
+  <object id="166" name="walls" x="2496" y="1024" width="64" height="64"/>
+  <object id="167" name="walls" x="2496" y="1088" width="64" height="64"/>
+  <object id="169" name="walls" x="2496" y="1152" width="64" height="64"/>
+  <object id="172" name="walls" x="0" y="64" width="64" height="64"/>
+  <object id="173" name="walls" x="0" y="128" width="64" height="64"/>
+  <object id="174" name="walls" x="0" y="256" width="64" height="64"/>
+  <object id="175" name="walls" x="0" y="192" width="64" height="64"/>
+  <object id="176" name="walls" x="0" y="320" width="64" height="64"/>
+  <object id="177" name="walls" x="0" y="384" width="64" height="64"/>
+  <object id="178" name="walls" x="0" y="448" width="64" height="64"/>
+  <object id="179" name="walls" x="0" y="576" width="64" height="64"/>
+  <object id="180" name="walls" x="0" y="512" width="64" height="64"/>
+  <object id="181" name="walls" x="0" y="640" width="64" height="64"/>
+  <object id="182" name="walls" x="0" y="704" width="64" height="64"/>
+  <object id="183" name="walls" x="0" y="768" width="64" height="64"/>
+  <object id="184" name="walls" x="0" y="896" width="64" height="64"/>
+  <object id="185" name="walls" x="0" y="832" width="64" height="64"/>
+  <object id="186" name="walls" x="0" y="960" width="64" height="64"/>
+  <object id="187" name="walls" x="0" y="1024" width="64" height="64"/>
+  <object id="188" name="walls" x="0" y="1088" width="64" height="64"/>
+  <object id="189" name="walls" x="0" y="1152" width="64" height="64"/>
+  <object id="190" name="walls" x="64" y="384" width="64" height="64"/>
+  <object id="191" name="walls" x="128" y="384" width="64" height="64"/>
+  <object id="192" name="walls" x="192" y="320" width="64" height="64"/>
+  <object id="193" name="walls" x="256" y="320" width="64" height="64"/>
+  <object id="194" name="walls" x="320" y="256" width="64" height="64"/>
+  <object id="195" name="walls" x="384" y="256" width="64" height="64"/>
+  <object id="196" name="walls" x="384" y="192" width="64" height="64"/>
+  <object id="198" name="walls" x="64" y="1216" width="64" height="64"/>
+  <object id="199" name="walls" x="128" y="1216" width="64" height="64"/>
+  <object id="200" name="walls" x="192" y="1216" width="64" height="64"/>
+  <object id="201" name="walls" x="256" y="1216" width="64" height="64"/>
+  <object id="202" name="walls" x="320" y="1216" width="64" height="64"/>
+  <object id="203" name="walls" x="384" y="1216" width="64" height="64"/>
+  <object id="204" name="walls" x="448" y="1216" width="64" height="64"/>
+  <object id="205" name="walls" x="512" y="1216" width="64" height="64"/>
+  <object id="206" name="walls" x="576" y="1216" width="64" height="64"/>
+  <object id="207" name="walls" x="320" y="448" width="64" height="64"/>
+  <object id="208" name="walls" x="320" y="576" width="64" height="64"/>
+  <object id="209" name="walls" x="320" y="512" width="64" height="64"/>
+  <object id="210" name="walls" x="320" y="640" width="64" height="64"/>
+  <object id="211" name="walls" x="512" y="448" width="64" height="64"/>
+  <object id="212" name="walls" x="512" y="576" width="64" height="64"/>
+  <object id="213" name="walls" x="512" y="512" width="64" height="64"/>
+  <object id="214" name="walls" x="512" y="640" width="64" height="64"/>
+  <object id="215" name="walls" x="640" y="960" width="64" height="64"/>
+  <object id="216" name="walls" x="704" y="960" width="64" height="64"/>
+  <object id="217" name="walls" x="768" y="960" width="64" height="64"/>
+  <object id="218" name="walls" x="832" y="960" width="64" height="64"/>
+  <object id="219" name="walls" x="896" y="960" width="64" height="64"/>
+  <object id="220" name="walls" x="576" y="960" width="64" height="64"/>
+  <object id="221" name="walls" x="704" y="704" width="64" height="64"/>
+  <object id="222" name="walls" x="704" y="832" width="64" height="64"/>
+  <object id="223" name="walls" x="704" y="768" width="64" height="64"/>
+  <object id="224" name="walls" x="704" y="896" width="64" height="64"/>
+  <object id="225" name="walls" x="896" y="704" width="64" height="64"/>
+  <object id="226" name="walls" x="896" y="832" width="64" height="64"/>
+  <object id="227" name="walls" x="896" y="768" width="64" height="64"/>
+  <object id="228" name="walls" x="896" y="896" width="64" height="64"/>
+  <object id="229" name="walls" x="1088" y="832" width="64" height="64"/>
+  <object id="230" name="walls" x="1088" y="960" width="64" height="64"/>
+  <object id="231" name="walls" x="1088" y="896" width="64" height="64"/>
+  <object id="232" name="walls" x="1088" y="1024" width="64" height="64"/>
+  <object id="233" name="walls" x="1280" y="832" width="64" height="64"/>
+  <object id="234" name="walls" x="1280" y="960" width="64" height="64"/>
+  <object id="235" name="walls" x="1280" y="896" width="64" height="64"/>
+  <object id="236" name="walls" x="1280" y="1024" width="64" height="64"/>
+  <object id="237" name="walls" x="1664" y="640" width="64" height="64"/>
+  <object id="238" name="walls" x="1728" y="640" width="64" height="64"/>
+  <object id="239" name="walls" x="1792" y="640" width="64" height="64"/>
+  <object id="240" name="walls" x="1856" y="640" width="64" height="64"/>
+  <object id="241" name="walls" x="1920" y="640" width="64" height="64"/>
+  <object id="242" name="walls" x="1984" y="640" width="64" height="64"/>
+  <object id="243" name="walls" x="2048" y="640" width="64" height="64"/>
+  <object id="244" name="walls" x="2112" y="640" width="64" height="64"/>
+  <object id="245" name="walls" x="2176" y="640" width="64" height="64"/>
+  <object id="246" name="walls" x="2240" y="640" width="64" height="64"/>
+  <object id="247" name="walls" x="2304" y="640" width="64" height="64"/>
+  <object id="248" name="walls" x="2368" y="640" width="64" height="64"/>
+  <object id="249" name="walls" x="2432" y="640" width="64" height="64"/>
+  <object id="250" name="walls" x="1664" y="512" width="64" height="64"/>
+  <object id="251" name="walls" x="1728" y="512" width="64" height="64"/>
+  <object id="252" name="walls" x="1792" y="512" width="64" height="64"/>
+  <object id="253" name="walls" x="1856" y="512" width="64" height="64"/>
+  <object id="254" name="walls" x="1920" y="512" width="64" height="64"/>
+  <object id="255" name="walls" x="1984" y="512" width="64" height="64"/>
+  <object id="256" name="walls" x="2048" y="512" width="64" height="64"/>
+  <object id="257" name="walls" x="2112" y="512" width="64" height="64"/>
+  <object id="258" name="walls" x="2176" y="512" width="64" height="64"/>
+  <object id="259" name="walls" x="2240" y="512" width="64" height="64"/>
+  <object id="260" name="walls" x="2304" y="512" width="64" height="64"/>
+  <object id="261" name="walls" x="2368" y="512" width="64" height="64"/>
+  <object id="262" name="walls" x="2432" y="512" width="64" height="64"/>
+  <object id="276" name="walls" x="1664" y="384" width="64" height="64"/>
+  <object id="277" name="walls" x="1728" y="384" width="64" height="64"/>
+  <object id="278" name="walls" x="1792" y="384" width="64" height="64"/>
+  <object id="279" name="walls" x="1856" y="384" width="64" height="64"/>
+  <object id="280" name="walls" x="1920" y="384" width="64" height="64"/>
+  <object id="281" name="walls" x="1984" y="384" width="64" height="64"/>
+  <object id="282" name="walls" x="2048" y="384" width="64" height="64"/>
+  <object id="283" name="walls" x="2112" y="384" width="64" height="64"/>
+  <object id="284" name="walls" x="2176" y="384" width="64" height="64"/>
+  <object id="285" name="walls" x="2240" y="384" width="64" height="64"/>
+  <object id="286" name="walls" x="2304" y="384" width="64" height="64"/>
+  <object id="287" name="walls" x="2368" y="384" width="64" height="64"/>
+  <object id="288" name="walls" x="2432" y="384" width="64" height="64"/>
+  <object id="289" name="walls" x="1664" y="256" width="64" height="64"/>
+  <object id="290" name="walls" x="1728" y="256" width="64" height="64"/>
+  <object id="291" name="walls" x="1792" y="256" width="64" height="64"/>
+  <object id="292" name="walls" x="1856" y="256" width="64" height="64"/>
+  <object id="293" name="walls" x="1920" y="256" width="64" height="64"/>
+  <object id="294" name="walls" x="1984" y="256" width="64" height="64"/>
+  <object id="295" name="walls" x="2048" y="256" width="64" height="64"/>
+  <object id="296" name="walls" x="2112" y="256" width="64" height="64"/>
+  <object id="297" name="walls" x="2176" y="256" width="64" height="64"/>
+  <object id="298" name="walls" x="2240" y="256" width="64" height="64"/>
+  <object id="299" name="walls" x="2304" y="256" width="64" height="64"/>
+  <object id="300" name="walls" x="2368" y="256" width="64" height="64"/>
+  <object id="301" name="walls" x="2432" y="256" width="64" height="64"/>
+  <object id="302" name="walls" x="1664" y="128" width="64" height="64"/>
+  <object id="303" name="walls" x="1728" y="128" width="64" height="64"/>
+  <object id="304" name="walls" x="1792" y="128" width="64" height="64"/>
+  <object id="305" name="walls" x="1856" y="128" width="64" height="64"/>
+  <object id="306" name="walls" x="1920" y="128" width="64" height="64"/>
+  <object id="307" name="walls" x="1984" y="128" width="64" height="64"/>
+  <object id="308" name="walls" x="2048" y="128" width="64" height="64"/>
+  <object id="309" name="walls" x="2112" y="128" width="64" height="64"/>
+  <object id="310" name="walls" x="2176" y="128" width="64" height="64"/>
+  <object id="311" name="walls" x="2240" y="128" width="64" height="64"/>
+  <object id="312" name="walls" x="2304" y="128" width="64" height="64"/>
+  <object id="313" name="walls" x="2368" y="128" width="64" height="64"/>
+  <object id="314" name="walls" x="2432" y="128" width="64" height="64"/>
+  <object id="315" name="walls" x="960" y="1088" width="64" height="64"/>
+  <object id="316" name="walls" x="1024" y="1088" width="64" height="64"/>
+  <object id="317" name="walls" x="1088" y="1088" width="64" height="64"/>
+  <object id="318" name="walls" x="1152" y="1088" width="64" height="64"/>
+  <object id="319" name="walls" x="1216" y="1088" width="64" height="64"/>
+  <object id="320" name="walls" x="1280" y="1088" width="64" height="64"/>
+  <object id="321" name="walls" x="1344" y="1088" width="64" height="64"/>
+  <object id="322" name="walls" x="960" y="960" width="64" height="64"/>
+  <object id="323" name="walls" x="960" y="1024" width="64" height="64"/>
+  <object id="324" name="walls" x="576" y="832" width="64" height="64"/>
+  <object id="325" name="walls" x="576" y="768" width="64" height="64"/>
+  <object id="326" name="walls" x="576" y="896" width="64" height="64"/>
+  <object id="327" name="walls" x="768" y="192" width="64" height="64"/>
+  <object id="328" name="walls" x="768" y="320" width="64" height="64"/>
+  <object id="329" name="walls" x="768" y="256" width="64" height="64"/>
+  <object id="330" name="walls" x="1088" y="192" width="64" height="64"/>
+  <object id="331" name="walls" x="1088" y="320" width="64" height="64"/>
+  <object id="332" name="walls" x="1088" y="256" width="64" height="64"/>
+  <object id="333" name="walls" x="704" y="64" width="64" height="64"/>
+  <object id="334" name="walls" x="704" y="128" width="64" height="64"/>
+  <object id="335" name="walls" x="1152" y="128" width="64" height="64"/>
+  <object id="336" name="walls" x="832" y="448" width="64" height="64"/>
+  <object id="337" name="walls" x="832" y="384" width="64" height="64"/>
+  <object id="338" name="walls" x="1024" y="448" width="64" height="64"/>
+  <object id="339" name="walls" x="1024" y="384" width="64" height="64"/>
+  <object id="340" name="walls" x="896" y="448" width="64" height="64"/>
+  <object id="341" name="walls" x="960" y="448" width="64" height="64"/>
+  <object id="347" name="gkey" x="768" y="128" width="64" height="64"/>
+  <object id="348" name="ykey" x="768" y="64" width="64" height="64"/>
+  <object id="349" name="fire" x="1216" y="128" width="64" height="64"/>
+  <object id="350" name="water" x="1152" y="192" width="64" height="64"/>
+  <object id="351" name="ggate" x="1152" y="64" width="64" height="64"/>
+  <object id="352" name="ygate" x="1216" y="64" width="64" height="64"/>
+  <object id="353" name="chip" x="896" y="64" width="64" height="64"/>
+  <object id="354" name="chip" x="1024" y="64" width="64" height="64"/>
+  <object id="355" name="chip" x="960" y="64" width="64" height="64"/>
+  <object id="356" name="fboots" x="896" y="320" width="64" height="64"/>
+  <object id="357" name="wboots" x="960" y="320" width="64" height="64"/>
+ </objectgroup>
+</map>
